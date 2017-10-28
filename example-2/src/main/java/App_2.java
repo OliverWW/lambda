@@ -1,5 +1,3 @@
-import jdk.nashorn.internal.ir.FunctionCall;
-
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Function;
@@ -8,7 +6,7 @@ import java.util.function.Supplier;
 /**
  * TODO: comment here
  */
-public class App {
+public class App_2 {
 	public String testThis(String str) {
 		System.out.println("对象方法引用this:" + str);
 		return "对象方法引用this";
@@ -98,7 +96,7 @@ public class App {
 
 		test2();
 		//this
-		App app = new App();
+		App_2 app = new App_2();
 		app.test2_1();
 
 		test3();

@@ -10,7 +10,7 @@ import java.util.function.UnaryOperator;
 /**
  * TODO: comment here
  */
-public class App {
+public class App_1 {
     //简单的函数体可以省略中括号
 	//无参数无返回值
 	static void test() throws Exception {
